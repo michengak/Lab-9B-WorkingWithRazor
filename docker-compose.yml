@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  razor:
+    image: razor
+    build:
+      context: .\Razor
+      dockerfile: Dockerfile
